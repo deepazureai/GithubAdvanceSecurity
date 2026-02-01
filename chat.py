@@ -49,5 +49,5 @@ response = client.chat.completions.create(
     ],
 )
 
-print("Response: ")
+print("Response: provide good brief")
 print(response.choices[0].message.content)
